@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cortes - Barbearia Souza</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.jpg" class="logo">
+
+<nav>
+<a href="index.html">Voltar</a>
+</nav>
+
+</header>
+
+
+<section id="cortes">
+
+<h2>Nossos Cortes</h2>
+
+<div class="cortes">
+
+<div class="corte">
+<img src="corte1.jpg" alt="Corte luzes">
+<p>Luzes</p>
+<p>R$120</p>
+<a href="https://wa.me/5544997306220" target="_blank">
+<button>Agendar</button>
+</a>
+</div>
+
+<div class="corte">
+<img src="corte gabriel.jpg" alt="Corte degradê">
+<p>Degradê</p>
+<p>R$25</p>
+<a href="https://wa.me/5544997306220" target="_blank">
+<button>Agendar</button>
+</a>
+</div>
+
+<div class="corte">
+<img src="corte ruan.jpg" alt="Corte degradê">
+<p>Degradê</p>
+<p>R$25</p>
+<a href="https://wa.me/5544997306220" target="_blank">
+<button>Agendar</button>
+</a>
+</div>
+
+<div class="corte">
+<img src="corte5.jpeg" alt="Corte navalhado">
+<p>Navalhado</p>
+<p>R$25</p>
+<a href="https://wa.me/5544997306220" target="_blank">
+<button>Agendar</button>
+</a>
+</div>
+
+<div class="corte">
+<img src="corte.jpg" alt="Corte navalhado">
+<p>Navalhado</p>
+<p>R$25</p>
+<a href="https://wa.me/5544997306220" target="_blank">
+<button>Agendar</button>
+</a>
+</div>
+
+<div class="corte">
+<img src="corte4.jpeg" alt="Corte com barba">
+<p>Corte + Barba</p>
+<p>R$45</p>
+<a href="https://wa.me/5544997306220" target="_blank">
+<button>Agendar</button>
+</a>
+</div>
+
+<div class="corte">
+<img src="corte cabelo e barba.jpg" alt="Corte cabelo e barba">
+<p>Corte + Barba</p>
+<p>R$45</p>
+<a href="https://wa.me/5544997306220" target="_blank">
+<button>Agendar</button>
+</a>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
