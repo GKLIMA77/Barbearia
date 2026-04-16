@@ -1,41 +1,192 @@
-/* RESPONSIVO CELULAR */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-@media (max-width:768px){
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:#111;
+color:white;
+text-align:center;
+}
 
 /* HEADER */
 
 header{
-padding:10px;
+background:black;
+padding:15px;
+display:flex;
+flex-direction:column;
+align-items:center;
 }
 
 .logo{
-width:90px;
+width:120px;
+margin-bottom:10px;
 }
 
 nav{
 display:flex;
-flex-direction:column;
-gap:8px;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
 }
 
 /* SEÇÕES */
 
 section{
-padding:30px 15px;
+padding:40px 20px;
+}
+
+h2{
+margin-bottom:20px;
 }
 
 /* BARBEIROS */
 
 .barbeiros{
-flex-direction:column;
-align-items:center;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .barbeiro{
-width:90%;
+background:#222;
+padding:10px 20px;
+border-radius:6px;
 }
 
 /* CORTES */
+
+.cortes{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.corte{
+background:#1c1c1c;
+padding:10px;
+border-radius:10px;
+width:200px;
+}
+
+.corte img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:8px;
+margin-bottom:5px;
+}
+
+/* MENSAIS */
+
+.Mensais{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.mensal{
+background:#1c1c1c;
+padding:15px;
+border-radius:10px;
+width:220px;
+}
+
+.mensal img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+/* BOTÕES */
+
+button{
+margin-top:8px;
+padding:8px 12px;
+border:none;
+background:red;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* CONTATO */
+
+.contato-adrian{
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.contato-adrian a{
+padding:10px 15px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.btn-whats{
+background:#25D366;
+}
+
+.btn-insta{
+background:#E1306C;
+}
+
+/* MAPA */
+
+.mapa{
+max-width:700px;
+margin:auto;
+border-radius:10px;
+overflow:hidden;
+margin-top:20px;
+}
+
+/* RODAPÉ */
+
+.rodape{
+background:black;
+padding:25px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.contatos{
+text-align:center;
+font-size:14px;
+line-height:22px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width:768px){
+
+nav{
+flex-direction:column;
+gap:8px;
+}
+
+.barbeiros{
+flex-direction:column;
+align-items:center;
+}
 
 .cortes{
 flex-direction:column;
@@ -47,8 +198,6 @@ width:90%;
 max-width:300px;
 }
 
-/* MENSAIS */
-
 .Mensais{
 flex-direction:column;
 align-items:center;
@@ -57,49 +206,6 @@ align-items:center;
 .mensal{
 width:90%;
 max-width:300px;
-}
-
-/* BOTÕES */
-
-button{
-width:100%;
-max-width:200px;
-}
-
-/* CONTATO */
-
-.contato-adrian{
-display:flex;
-flex-direction:column;
-align-items:center;
-}
-
-.contato-adrian a{
-width:200px;
-text-align:center;
-}
-
-/* MAPA */
-
-.mapa{
-width:100%;
-}
-
-/* RODAPÉ */
-
-.rodape{
-flex-direction:column;
-text-align:center;
-gap:20px;
-}
-
-.logo-rodape{
-width:150px;
-align-self:center;
-}
-
-.contatos{
-text-align:center;
 }
 
 }
