@@ -1,0 +1,105 @@
+/* RESPONSIVO CELULAR */
+
+@media (max-width:768px){
+
+/* HEADER */
+
+header{
+padding:10px;
+}
+
+.logo{
+width:90px;
+}
+
+nav{
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+/* SEÇÕES */
+
+section{
+padding:30px 15px;
+}
+
+/* BARBEIROS */
+
+.barbeiros{
+flex-direction:column;
+align-items:center;
+}
+
+.barbeiro{
+width:90%;
+}
+
+/* CORTES */
+
+.cortes{
+flex-direction:column;
+align-items:center;
+}
+
+.corte{
+width:90%;
+max-width:300px;
+}
+
+/* MENSAIS */
+
+.Mensais{
+flex-direction:column;
+align-items:center;
+}
+
+.mensal{
+width:90%;
+max-width:300px;
+}
+
+/* BOTÕES */
+
+button{
+width:100%;
+max-width:200px;
+}
+
+/* CONTATO */
+
+.contato-adrian{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.contato-adrian a{
+width:200px;
+text-align:center;
+}
+
+/* MAPA */
+
+.mapa{
+width:100%;
+}
+
+/* RODAPÉ */
+
+.rodape{
+flex-direction:column;
+text-align:center;
+gap:20px;
+}
+
+.logo-rodape{
+width:150px;
+align-self:center;
+}
+
+.contatos{
+text-align:center;
+}
+
+}
