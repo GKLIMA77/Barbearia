@@ -1,0 +1,44 @@
+/* RESPONSIVO CELULAR */
+
+@media (max-width:768px){
+
+header{
+padding:10px;
+}
+
+.logo{
+width:90px;
+}
+
+/* NAV */
+
+nav{
+margin-top:10px;
+}
+
+/* CORTES */
+
+.cortes{
+flex-direction:column;
+align-items:center;
+gap:20px;
+}
+
+.corte{
+width:90%;
+max-width:300px;
+}
+
+.corte img{
+height:200px;
+}
+
+/* BOTÃO */
+
+button{
+width:100%;
+font-size:16px;
+padding:10px;
+}
+
+}
